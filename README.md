@@ -1,7 +1,27 @@
-# gratitude-token-project_astro (private)
+# Gratitude Token Project — Astro Site 🙏
+
+> Sidecar Astro site for the Ethereal Offering Protocol — changelog-as-content and a scrubbed structure map, published separately from the main dApp.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat)](LICENSE)
-[![Sync](https://github.com/drasticstatic/gratitude-token-project_astro/actions/workflows/sync-public-allowlist.yml/badge.svg)](https://github.com/drasticstatic/gratitude-token-project_astro/actions/workflows/sync-public-allowlist.yml)
+[![Public Preview](https://img.shields.io/badge/%F0%9F%8C%90%20Public%20Preview-Available-brightgreen)](https://drasticstatic.github.io/gratitude-token-project_astro-public/) [![Sync](https://github.com/drasticstatic/gratitude-token-project_astro/actions/workflows/sync-public-allowlist.yml/badge.svg)](https://github.com/drasticstatic/gratitude-token-project_astro/actions/workflows/sync-public-allowlist.yml) [![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code%20CLI-blueviolet)](https://code.claude.com/docs/en/overview) [![Status](https://img.shields.io/badge/Status-%F0%9F%8C%B1%20Early%20Scaffold-orange)](https://github.com/drasticstatic/gratitude-token-project_astro)
+
+---
+
+**🌐 [Explore the Public Preview →](https://drasticstatic.github.io/gratitude-token-project_astro-public/)**
+
+---
+
+## Table of Contents
+
+- [👋 What This Is](#what-this-is)
+- [🔒 Private / Public Split](#private-public-split)
+- [💻 Local Development](#local-development)
+- [🏗️ Structure](#structure)
+
+---
+
+<a id="what-this-is"></a>
+## 👋 What This Is
 
 Sidecar [Astro](https://astro.build) site for the
 [gratitude-token-project](https://github.com/drasticstatic/gratitude-token-project) dApp
@@ -15,7 +35,10 @@ Sidecar [Astro](https://astro.build) site for the
 
 Neither is populated yet — this repo currently holds the initial site scaffold only.
 
-## Private / public split
+---
+
+<a id="private-public-split"></a>
+## 🔒 Private / Public Split
 
 This repo is **private** and is the source of truth. A public sibling,
 [`gratitude-token-project_astro-public`](https://github.com/drasticstatic/gratitude-token-project_astro-public),
@@ -29,7 +52,10 @@ Everything not named in the sync workflow's `public_allowlist` stays private by 
 including this repo's agent orchestration files (`AGENT-SYNC/`, `CLAUDE.md`, `.claude/`,
 `.augment/`, `specs/`) and this `HANDOFF-create_astro-workspace-proposal.md`.
 
-## Local development
+---
+
+<a id="local-development"></a>
+## 💻 Local Development
 
 ```bash
 npm install
@@ -40,9 +66,16 @@ npm run preview    # preview the production build
 
 Requires Node.js `>=22.12.0`.
 
-## Structure
+---
+
+<a id="structure"></a>
+## 🏗️ Structure
 
 ```
 src/pages/   Astro pages (currently just a placeholder homepage)
 public/      Static assets served as-is
 ```
+
+---
+
+*Built and maintained by [drasticstatic](https://github.com/drasticstatic) · w/ Anthropic's Claude Code CLI*
