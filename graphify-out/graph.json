@@ -1,0 +1,201 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "astro.config.mjs",
+      "file_type": "code",
+      "source_file": "astro.config.mjs",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "astro.config.mjs",
+      "id": "astro_config_mjs"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "drasticstatic",
+      "contributor": null,
+      "community": 0,
+      "norm_label": "readme.md",
+      "id": "readme_readme"
+    },
+    {
+      "label": "HANDOFF \u2014 gratitude-token-project_astro (private)",
+      "file_type": "document",
+      "source_file": "HANDOFF-create_astro-workspace-proposal.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Mystarch",
+      "contributor": null,
+      "community": 1,
+      "norm_label": "handoff \u2014 gratitude-token-project_astro (private)",
+      "id": "handoff_create_astro_workspace_proposal_handoff"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "claude.md",
+      "id": "claude_claude"
+    },
+    {
+      "label": "Handoff \u2014 Astro Init Complete",
+      "file_type": "document",
+      "source_file": "AGENT-SYNC/created-by-mystarch/HANDOFF_ASTRO_INIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alfred",
+      "contributor": null,
+      "community": 1,
+      "norm_label": "handoff \u2014 astro init complete",
+      "id": "handoff_astro_init_handoff"
+    },
+    {
+      "label": "favicon.svg",
+      "file_type": "image",
+      "source_file": "public/favicon.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "favicon.svg",
+      "id": "favicon_favicon"
+    },
+    {
+      "label": "gratitude-token-project",
+      "file_type": "concept",
+      "source_file": null,
+      "source_location": null,
+      "source_url": "https://github.com/drasticstatic/gratitude-token-project",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "gratitude-token-project",
+      "id": "gratitude_token_project_dapp"
+    },
+    {
+      "label": "sync-public-allowlist.yml",
+      "file_type": "code",
+      "source_file": ".github/workflows/sync-public-allowlist.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "sync-public-allowlist.yml",
+      "id": "sync_public_allowlist_workflow"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "gratitude_token_project_dapp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "sync_public_allowlist_workflow"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HANDOFF-create_astro-workspace-proposal.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_create_astro_workspace_proposal_handoff",
+      "target": "readme_readme"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_claude",
+      "target": "readme_readme"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.5,
+      "source_file": "public/favicon.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "favicon_favicon",
+      "target": "readme_readme"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HANDOFF-create_astro-workspace-proposal.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_create_astro_workspace_proposal_handoff",
+      "target": "gratitude_token_project_dapp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENT-SYNC/created-by-mystarch/HANDOFF_ASTRO_INIT.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_astro_init_handoff",
+      "target": "handoff_create_astro_workspace_proposal_handoff"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENT-SYNC/created-by-mystarch/HANDOFF_ASTRO_INIT.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_astro_init_handoff",
+      "target": "gratitude_token_project_dapp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENT-SYNC/created-by-mystarch/HANDOFF_ASTRO_INIT.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_astro_init_handoff",
+      "target": "sync_public_allowlist_workflow"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "99e9428b276580710567e63849e1f3db1d857a0a"
+}
