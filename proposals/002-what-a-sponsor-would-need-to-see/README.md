@@ -8,9 +8,9 @@
 
 *Research and self-assessment, not an application. No launchpad, fund or sponsor has been approached. Everything marked "to verify" stays unverified until a person checks it.*
 
-![Proposal](https://img.shields.io/badge/Proposal-002-d97706?style=flat-square)
-![Status](https://img.shields.io/badge/Status-draft%2C_self--assessment-6b4f1d?style=flat-square)
-![Date](https://img.shields.io/badge/Date-2026--10--29-6b4f1d?style=flat-square)
+![Proposal](https://img.shields.io/badge/Proposal-002-0d9488?style=flat-square)
+![Status](https://img.shields.io/badge/Status-draft%2C_self--assessment-134e4a?style=flat-square)
+![Date](https://img.shields.io/badge/Date-2026--10--29-134e4a?style=flat-square)
 ![For](https://img.shields.io/badge/For-Christopher%3B_later_a_sponsor-a21caf?style=flat-square)
 ![Not advice](https://img.shields.io/badge/general_information-not_legal_or_financial_advice-lightgrey?style=flat-square)
 

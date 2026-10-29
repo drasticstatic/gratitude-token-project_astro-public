@@ -8,9 +8,9 @@
 
 *A first revision, written the day the drafts landed, before Christopher reconciled them with the real whitepaper and his October 2025 hand edits. Not legal advice. Every "fact" about entities and money in the drafts is unverified until the attorneys say otherwise.*
 
-![Proposal](https://img.shields.io/badge/Proposal-001-d97706?style=flat-square)
-![Status](https://img.shields.io/badge/Status-draft%2C_first_revision-6b4f1d?style=flat-square)
-![Date](https://img.shields.io/badge/Date-2026--10--29-6b4f1d?style=flat-square)
+![Proposal](https://img.shields.io/badge/Proposal-001-0d9488?style=flat-square)
+![Status](https://img.shields.io/badge/Status-draft%2C_first_revision-134e4a?style=flat-square)
+![Date](https://img.shields.io/badge/Date-2026--10--29-134e4a?style=flat-square)
 ![For](https://img.shields.io/badge/For-Christopher%2C_then_Psanctuary-a21caf?style=flat-square)
 ![Not legal advice](https://img.shields.io/badge/general_information-not_legal_advice-lightgrey?style=flat-square)
 
