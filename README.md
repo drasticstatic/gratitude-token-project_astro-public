@@ -57,8 +57,8 @@ mirrors only what's explicitly allowlisted, pushed automatically by
 `pir-devine-news-public`) — there is no `-preview` staging lane.
 
 Everything not named in the sync workflow's `public_allowlist` stays private by default,
-including this repo's agent orchestration files (`agent-coordination/`, `CLAUDE.md`, `.claude/`,
-`.augment/`, `specs/`) and this `HANDOFF-create_astro-workspace-proposal.md`.
+including this repo's agent orchestration files, its specs and notes, and
+`HANDOFF-create_astro-workspace-proposal.md`.
 
 ---
 
