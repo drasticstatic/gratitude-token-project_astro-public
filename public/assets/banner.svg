@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+  <title id="t">gratitude-token-project_astro</title>
+  <desc id="d">Changelog as content, and a scrubbed structure map The picture: 11 stars arrive and join into one constellation. With reduced motion, the finished picture shows at once.</desc>
+  <style>
+    /* Motion only for readers who have not asked for less. Outside this block everything is in its finished state. */
+    @media (prefers-reduced-motion: no-preference) {
+      .draw { stroke-dasharray: 100; animation: draw 2.6s cubic-bezier(.4,0,.2,1) both; }
+      .arrive { animation: arrive .5s ease-out both; }
+      .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 8s steps(48) 3s infinite; }
+      .halo { transform-box: fill-box; transform-origin: center; animation: halo 5s steps(60) 3.6s infinite; }
+    }
+    @keyframes draw { from { stroke-dashoffset: 100 } to { stroke-dashoffset: 0 } }
+    @keyframes arrive { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes breathe { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.07) } }
+    @keyframes halo { 0% { opacity: .55; transform: scale(1) } 70%, 100% { opacity: 0; transform: scale(2.1) } }
+    .halo { opacity: 0 }
+  </style>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d272c"/><stop offset="1" stop-color="#0b1821"/></linearGradient>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="668" y1="0" x2="1160" y2="0"><stop offset="0.00" stop-color="#0f766e"/><stop offset="0.50" stop-color="#0d9488"/><stop offset="1.00" stop-color="#76cdc2"/></linearGradient>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="620" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#0d9488" stop-opacity="0"/><stop offset=".35" stop-color="#0d9488"/><stop offset="1" stop-color="#76cdc2"/></linearGradient>
+    <clipPath id="card"><rect width="1200" height="260" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <!-- an opaque ground: the same picture on GitHub's light and dark themes -->
+    <rect width="1200" height="260" fill="url(#ground)"/>
+    <circle class="halo" cx="872.5" cy="129.8" r="13" fill="none" stroke="#76cdc2" stroke-width="2"/>
+    <path class="draw" pathLength="100" d="M872.5 129.8L837.7 74.7" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.30s"/>
+    <path class="draw" pathLength="100" d="M837.7 74.7L912.5 52.9" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.52s"/>
+    <path class="draw" pathLength="100" d="M912.5 52.9L981.9 122.3" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.74s"/>
+    <path class="draw" pathLength="100" d="M981.9 122.3L1023.7 46.9" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.96s"/>
+    <path class="draw" pathLength="100" d="M981.9 122.3L1023.7 206.7" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.18s"/>
+    <path class="draw" pathLength="100" d="M1023.7 206.7L1107.5 200.3" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.40s"/>
+    <path class="draw" pathLength="100" d="M872.5 129.8L781.3 181.1" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.62s"/>
+    <path class="draw" pathLength="100" d="M1107.5 200.3L1121.2 96.0" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.84s"/>
+    <path class="draw" pathLength="100" d="M837.7 74.7L736.7 44.1" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.06s"/>
+    <path class="draw" pathLength="100" d="M736.7 44.1L687.1 117.8" fill="none" stroke="#0d5855" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.28s"/>
+    <circle class="arrive" style="animation-delay:0.15s" cx="872.5" cy="129.8" r="8.0" fill="#0d9488"/>
+    <circle class="arrive" style="animation-delay:0.39s" cx="781.3" cy="181.1" r="5.2" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:0.63s" cx="1023.7" cy="206.7" r="4.5" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:0.87s" cx="736.7" cy="44.1" r="4.1" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:1.11s" cx="1121.2" cy="96.0" r="4.6" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:1.35s" cx="912.5" cy="52.9" r="5.4" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:1.59s" cx="1023.7" cy="46.9" r="3.9" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:1.83s" cx="687.1" cy="117.8" r="4.6" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:2.07s" cx="981.9" cy="122.3" r="5.8" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:2.31s" cx="837.7" cy="74.7" r="3.6" fill="#76cdc2"/>
+    <circle class="arrive" style="animation-delay:2.55s" cx="1107.5" cy="200.3" r="4.9" fill="#76cdc2"/>
+    <rect x="0.0" y="248" width="300.5" height="12" fill="#134e4a"/><rect x="300.0" y="248" width="300.5" height="12" fill="#0f766e"/><rect x="600.0" y="248" width="300.5" height="12" fill="#0d9488"/><rect x="900.0" y="248" width="300.5" height="12" fill="#ccfbf1"/>
+    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif"><text x="56" y="83.2" fill="#1c9a8f" font-size="15" font-weight="700" letter-spacing=".6">drasticstatic lab · sidecar site</text><text x="56" y="129.6" fill="#ccfbf1" font-size="40" font-weight="700" letter-spacing="-.5">gratitude-token-project_astro</text><text x="56" y="170.2" fill="#b1ddd5" font-size="23">Changelog as content, and a scrubbed structure map</text></g>
+  </g>
+</svg>
